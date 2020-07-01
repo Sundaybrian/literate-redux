@@ -4,6 +4,7 @@ import M from "materialize-css/dist/js/materialize.min.js";
 import "./App.css";
 
 import SearchBar from "./components/layouts/SearchBar";
+import Logs from "./components/logs/Logs";
 
 const App = () => {
   useEffect(() => {
@@ -11,10 +12,12 @@ const App = () => {
     M.AutoInit();
   });
   return (
-    <div className="App">
+    <>
       <SearchBar />
-      <h1>Hello</h1>
-    </div>
+      <div className="container">
+        <Logs />
+      </div>
+    </>
   );
 };
 
