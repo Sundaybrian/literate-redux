@@ -5,6 +5,7 @@ import "./App.css";
 
 import SearchBar from "./components/layouts/SearchBar";
 import Logs from "./components/logs/Logs";
+import AddBtn from "./components/layouts/AddBtn";
 
 const App = () => {
   useEffect(() => {
@@ -15,6 +16,7 @@ const App = () => {
     <>
       <SearchBar />
       <div className="container">
+        <AddBtn />
         <Logs />
       </div>
     </>
