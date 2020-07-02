@@ -14,7 +14,24 @@
     }
   ],
 
-  "logs":[],
+  "logs":[
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "sunday",
+      "message":"server broken 0",
+      "attention":false,
+      "date":new Date()
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "author": "brian",
+      "message":"server broken",
+      "attention":true,
+      "date":new Date()
+    }
+  ],
   "techs":[],
   "profile": {
     "name": "typicode"
