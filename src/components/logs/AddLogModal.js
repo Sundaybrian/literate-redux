@@ -1,12 +1,16 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
+import M from "materialize-css/dist/js/materialize.min.js";
 
 const AddLogModal = (props) => {
   const [message, setMessage] = useState("");
   const [attention, setAttention] = useState(false);
   const [tech, setTech] = useState("");
 
-  const onSubmit = () => {};
+  const onSubmit = () => {
+    if (tech == "") {
+      M.toast({ html: "Please enter a tech and message" });
+    }
+  };
   return (
     <div id="add-log-modal" className="modal" style={modalStyle}>
       <div className="modal-content">
@@ -72,6 +76,5 @@ const modalStyle = {
   width: "75%",
   height: "75%",
 };
-AddLogModal.propTypes = {};
 
 export default AddLogModal;
