@@ -21,7 +21,7 @@
       "author": "sunday",
       "message":"server broken 0",
       "attention":false,
-      "date":new Date()
+      "date":"2020-07-03T08:35:40.345Z"
     },
     {
       "id": 2,
@@ -29,10 +29,17 @@
       "author": "brian",
       "message":"server broken",
       "attention":true,
-      "date":new Date()
+      "date":"2020-07-03T08:35:40.345Z"
     }
   ],
-  "techs":[],
+  "techs":[
+    {
+      "id": 1,
+      "title": "json json",
+      "firstName": "sunday",
+      "lastName":"broken"
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
